@@ -1,9 +1,9 @@
 # Site settings
-title:       "Personal blog of Sergey Grabak"
-header_title: "Personal blog of Sergey Grabak"
+title:       "Блог Сергея"
+header_title: "Блог Сергея"
 email:       seventyseventh@gmail.com
 author:      Sergey Grabak
-description: "Personal blog of Sergey Grabak"
+description: "Блог Сергея"
 baseurl:     ""
 url:         "https://tolive.github.io"
 date_format: "%-d.%m.%Y"
