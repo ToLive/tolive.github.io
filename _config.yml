@@ -1,11 +1,11 @@
 # Site settings
 title:       "Jekyll Bootstrap 4 with Docker"
 header_title: "Jekyll Bootstrap 4 with Docker"
-email:       your@ema.il
-author:      Your Name
+email:       seventyseventh@gmail.com
+author:      Sergey Grabak
 description: "Jekyll static blog boilerplate with Bootstrap 4 and Docker"
 baseurl:     "/jekyll-bootstrap4-docker"
-url:         "https://hexlet-boilerplates.github.io"
+url:         "https://tolive.github.io"
 date_format: "%-d.%m.%Y"
 
 # Google services
