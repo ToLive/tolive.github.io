@@ -1,10 +1,10 @@
 # Site settings
-title:       "Jekyll Bootstrap 4 with Docker"
-header_title: "Jekyll Bootstrap 4 with Docker"
+title:       "Personal blog of Sergey Grabak"
+header_title: "Personal blog of Sergey Grabak"
 email:       seventyseventh@gmail.com
 author:      Sergey Grabak
-description: "Jekyll static blog boilerplate with Bootstrap 4 and Docker"
-baseurl:     "/jekyll-bootstrap4-docker"
+description: "Personal blog of Sergey Grabak"
+baseurl:     ""
 url:         "https://tolive.github.io"
 date_format: "%-d.%m.%Y"
 
@@ -27,13 +27,13 @@ ajaxify_contact_form: true
 disqus_shortname: "disqus_xxx"
 
 # Social icons
-github_username: hexlet
+github_username: tolive
 bitbucket_username:
 stackoverflow_id:
-twitter_username: hexlet
+twitter_username: 
 google_plus_id:
 linkedin_username:
-facebook_username: hexlet
+facebook_username: 
 angellist_username:
 medium_id:
 bitcoin_url:
