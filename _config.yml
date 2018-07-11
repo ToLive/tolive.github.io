@@ -18,13 +18,13 @@ facebook_app_id: "1414002802233483"
 # Optional features
 animated:             false
 show_related_posts:   false
-show_post_footer:    true
+show_post_footer:    false
 show_social_icons:    true
 ajaxify_contact_form: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: "disqus_xxx"
+disqus_shortname: "tolive-1"
 
 # Social icons
 github_username: tolive
