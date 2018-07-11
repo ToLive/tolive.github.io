@@ -16,7 +16,7 @@ layout: default
         </a>
 
         <div>
-          {{ post.content }}
+          {{ post.content | strip_html | truncatewords: 50 }}
         </div>
 
         <div class="meta text-muted">
