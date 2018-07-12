@@ -9,14 +9,14 @@ url:         "https://tolive.github.io"
 date_format: "%-d.%m.%Y"
 
 # Google services
-google_analytics: "UA-1360700-62"
+google_analytics: ""
 google_verification: ""
 
 # Facebook
-facebook_app_id: "1414002802233483"
+facebook_app_id: ""
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footer:    false
 show_social_icons:    true
@@ -30,7 +30,7 @@ disqus_shortname: "tolive-1"
 github_username: tolive
 bitbucket_username:
 stackoverflow_id:
-twitter_username: 
+twitter_username: SergeiGrabak
 google_plus_id:
 linkedin_username:
 facebook_username: 
