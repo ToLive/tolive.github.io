@@ -33,7 +33,7 @@ layout: default
                     </div>
                     
                 </div>
-                <a href="#" class="black-text d-flex justify-content-end"><h5>Читать <i class="fa fa-angle-double-right"></i></h5></a>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="black-text d-flex justify-content-end"><h5>Читать <i class="fa fa-angle-double-right"></i></h5></a>
             </div>            
         </div>
         {% endfor %}
