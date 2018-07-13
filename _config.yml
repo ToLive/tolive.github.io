@@ -9,8 +9,7 @@ url:         "https://tolive.github.io"
 date_format: "%-d.%m.%Y"
 
 # Google services
-google_analytics: ""
-google_verification: ""
+google_analytics: "UA-122314008-1"
 
 # Facebook
 facebook_app_id: ""
