@@ -2,14 +2,16 @@
 layout: default
 ---
 
-<div class="hexlet_guides_post_header my-4">
-  <h1>{{ page.title }}</h1>
-</div>
+<div class="card mt-4">
+    <div class="card-body pt-3">
+        <h2 class="card-title mt-0">
+        {{ page.title }}</h2>
 
-<article class="post-content">
-  {{ content }}
-</article>
-
+        <div class="mb-1">
+            <article class="post-content">
+            {{ content }}
+            </article>
+        </div>
 {% if site.show_post_footer %}
   {% include post_footer.html %}
 {% endif %}
@@ -17,6 +19,8 @@ layout: default
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}
 {% endif %}
+    </div>
+</div>
 
 <ul class="pagination">
   {% if page.previous.url %}
