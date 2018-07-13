@@ -3,37 +3,39 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col">  
-    {% for post in paginator.posts %}
-      {% assign minutes = post.content | strip_html | number_of_words | divided_by: 180 %}
-      {% if minutes == 0 %}
-        {% assign minutes = 1 %}
-      {% endif %}
-      <div class="mb-4">
+    <div class="col">  
+        {% for post in paginator.posts %}
+        {% assign minutes = post.content | strip_html | number_of_words | divided_by: 180 %}
+        {% if minutes == 0 %}
+            {% assign minutes = 1 %}
+        {% endif %}
+        <div class="card mt-4">
+            <div class="card-body pt-3"> 
+                <h2 class="card-title mt-0">
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="nocolor">
+                        {{ post.title }}
+                    </a>
+                </h2>
+                
+                <div class="mb-4">
+                    <div>
+                        {{ post.content | strip_html | truncatewords: 50 }}
+                    </div>
 
-        <a href="{{ post.url | prepend: site.baseurl }}" class="nocolor">
-          <h2>{{ post.title }}</h2>
-        </a>
-
-        <div>
-          {{ post.content | strip_html | truncatewords: 50 }}
+                    <div class="meta text-muted">
+                        {{ post.date | date_to_long_string }},
+                        <span>
+                            <i class="fa fa-clock-o ml-1" aria-hidden="true"></i> {{ minutes }} min
+                        </span>
+                        /
+                        <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
+                        </a>
+                    </div>
+                </div>
+                <a href="#!" class="black-text d-flex justify-content-end"><h5>Читать<i class="fa fa-angle-double-right"></i></h5></a>        
+            </div>
+            <hr>
+            {% endfor %}
         </div>
-
-        <div class="meta text-muted">
-          {{ post.date | date_to_long_string }},
-          <span>
-            <i class="fa fa-clock-o ml-1" aria-hidden="true"></i> {{ minutes }} min
-          </span>
-          /
-          <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
-          </a>
-        </div>
-        
-      </div>
-      <hr>
-  {% endfor %}
-  </div>
-</div>
-
-  
+    </div>
 </div>
