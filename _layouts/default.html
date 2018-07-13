@@ -8,7 +8,7 @@
       <div class="col">{{ content }}</div>
 
       {% if paginator %}
-        <ul class="pagination">
+        <ul class="pagination mt-4">
           {% if paginator.previous_page %}
             <li class="page-item">
               <a class="page-link" href="{{ paginator.previous_page_path }}">
@@ -27,8 +27,8 @@
         </ul>
       {% endif %}
 
+      {% include footer.html %}
     </div>
-    {% include footer.html %}
   </div>
   <script id="dsq-count-scr" src="//tolive-1.disqus.com/count.js" async></script>
 </body>
