@@ -9,6 +9,9 @@ layout: default
 
         <div class="mb-1">
             <article class="post-content">
+                {% if page.small-image %}
+                    <img src="{{ page.small-image }}" height="25px">
+                {% endif %}
             {{ content }}
             </article>
         </div>
